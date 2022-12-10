@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/sktestStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "sktestsword", 1 ]}
+      ]
+    }]]
+  }
+]
