@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/sktest",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/sktest",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]
