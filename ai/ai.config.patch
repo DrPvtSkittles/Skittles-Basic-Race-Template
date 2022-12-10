@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/sktest",
+		"value" : {
+			"aiFrames" : "sktestAI.png",
+			"portraitFrames" : "portraits/sktestportrait.png",
+			"staticFrames" : "staticsktest.png"	
+		}
+	}
+]
