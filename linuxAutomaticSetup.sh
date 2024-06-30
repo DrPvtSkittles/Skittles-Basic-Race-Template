@@ -18,7 +18,7 @@ echo -e "${RED}╔════════════════════�
 echo          "║IT IS RECOMMENDED TO BACKUP YOUR MOD BEFORE CONTINUING║"
 echo -e       "╚══════════════════════════════════════════════════════╝${NC}"
 
-#read -p "Enter the race's name: " replace
+read -p "Enter the race's name: " replace
 
 echo    "╔═════════════════════════════════════════════════════════╗"
 echo    "║This could take several minuites depending on your system║"
@@ -36,10 +36,14 @@ find . -type f -name "*$search*" | while read -r file; do
 	base="$(basename $file)"
 	basereplace=$(echo "$base" | sed "s/$search/$replace/g")
 	mv $dir$base $dir$basereplace
-	echo $dirreplace
 done
 
 #change directories
+find . -type d -name "*$search*" | while read -r file; do
+	dirreplace=$(echo "$file" | sed "s/$search/$replace/g")
+	mv $file $dirreplace
+done
+#change the annoying second level files
 find . -type d -name "*$search*" | while read -r file; do
 	dirreplace=$(echo "$file" | sed "s/$search/$replace/g")
 	mv $file $dirreplace
