@@ -18,7 +18,7 @@ echo -e "${RED}╔════════════════════�
 echo          "║IT IS RECOMMENDED TO BACKUP YOUR MOD BEFORE CONTINUING║"
 echo -e       "╚══════════════════════════════════════════════════════╝${NC}"
 
-read -p "Enter the race's name: " replace
+#read -p "Enter the race's name: " replace
 
 echo    "╔═════════════════════════════════════════════════════════╗"
 echo    "║This could take several minuites depending on your system║"
