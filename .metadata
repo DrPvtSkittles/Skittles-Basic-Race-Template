@@ -1,11 +1,11 @@
 {
-  "tags" : "Species",
   "author" : "DrPvtSkittles",
-  "description" : "Basic Template to create your own race.",
+  "description" : "Skittles Basic Template Mod \n(sktest)\n\nDo you want to create your own race mod, but you don't know where to start? This is the mod for you! \n\nHow to use? Please follow this guide:\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1380289410\n\nAll assets are from the basic human race. \n\n***WARNING*** The steam subscribe format doesn't work for this kind of mod. \n\nDownload from here: \nhttp://www.nexusmods.com/starbound/mods/373/? \nhttp://community.playstarbound.com/resources/template-race-mod.956/ \n\nYou put the mod into your mod folder and edit it there. I would recommend renaming the folder asap. \n\nHow to use:\nTo turn the BASIC_RACE_TEMPLATE_EASY_SETUP.txt into a bat file open it up in your word editor, go Save As, then Save As Type, change that to All Files. Then change the name to BASIC_RACE_TEMPLATE_EASY_SETUP.bat\n\nRun the batch file BASIC_RACE_TEMPLATE_EASY_SETUP.bat. Pick a name for your race USING ONLY LOWERCASE and NO SPACES, press enter and BAMN. That's all there is to it.\n\nDo not use this .bat file with previous versions, as I have adjusted some file names to make things easier. Always back up your mod folder!\n\nIf you have having issues with your race armour not finding default frames file. Redo your \\species\\sktest.species file with the current template.\n\n\nIncluded:\nS.A.I.L.\nRespawn Cinematic\nTeleport\nCodex\nHair and Body parts\nInterface\nOutfits\nBasic Sword\nShip and Ship assets\nRecipes\nSfx Hurt sounds\nShiplocker Treasure Pool\n\nAll assets are from the basic human race.\n\nThis is the basic version, for armour and more try https://community.playstarbound.com/resources/skittles-advanced-template-race-mod.5099/\n\nDon't forget to change the .metadata.\n\nFor free graphic templates:\nhttps://community.playstarbound.com/threads/skittles-template-goodies.137705/#post-3220581\n\nNotepad ++ - Great Tool. I cannot recommend it enough.\nhttps://notepad-plus-plus.org/\n\nIf you have any suggestions, comments or critiques I would love to hear from you.\n\nDiscord Profile\nDrPvtSkittles\n\nSteam Profile\nhttp://steamcommunity.com/id/sx-skittles/\n\nChucklefish Games Profile\nhttp://community.playstarbound.com/index.php?members/drpvtskittles.96422/\n\nNexusmods Profile\nhttp://www.nexusmods.com/starbound/users/6177151/?\n\nGitHub Repositories\nhttps://github.com/DrPvtSkittles?tab=repositories",
   "friendlyName" : "Skittles Basic Race Template",
-  "link" : "",
+  "link" : "steam://url/CommunityFilePage/739417362",
   "name" : "Skittles Basic Race Template",
   "path" : ".",
-  "steamContentId" : "",
-  "version" : "1"
+  "steamContentId" : "739417362",
+  "tags" : "Species",
+  "version" : "3.0.5"
 }

@@ -35,7 +35,7 @@ FOR /R . %%g in ("*!search!*") do (
 	REN "%%g" "!File:%search%=%replace%!"
 )
 
-FOR /R . %%j in (*.patch, *.species, *.config, *.structure, *.recipe, *.object, *.frames, *.activeitem, *.legs, *.chest, *.codex, *.cinematic, *.disabled) do (
+FOR /R . %%j in (*.patch, *.species, *.config, *.structure, *.recipe, *.object, *.frames, *.activeitem, *.npctype, *.legs, *.chest, *.codex, *.cinematic, *.disabled) do (
 	IF EXIST "%%j" (
 		SET /P "=#" <nul
 		SET textFile=%%j
